@@ -1,0 +1,60 @@
+{
+
+    "plan":
+    {
+    "DO_IT":"0",
+    "DO_IT_NOW":"1",
+    "DO_IT_MORE":"2",
+    "DO_IT_ALL":"3",
+    "eight_GB":"0",
+    "Unlimited":"1",
+
+    "Do_It_Text":["DO IT","Now  $1,999.50 + GCT*","15Mbps","Unlimited Local Calls","Select","Delete"],
+    "Do_Now_Text":["DO IT NOW","Now  $2,499.50 + GCT*","Up to 50Mbps","Unlimited Local Calls","HBO GO Streaming App","Flow Sports App"],
+    "Do_More_Text":["DO IT MORE"," $6,499.00 + GCT*","Up to 100Mbps","Unlimited Local Calls","161 Channels","See Channels","Flow Sports App"],
+    "Do_All_Text":["DO IT ALL","Now  $4,999.50 + GCT*","Up to 150Mbps","Unlimited Local Calls","242 Channels ","See Channels","HBO GO Streaming App","Flow Sports App"],
+
+    "Eight_GB_Text":["8GB Plan","50% off","Now $1,600.00 + GCT*","8GB","Unlimited Youtube","Unlimited Social media","Unlimited Anywhere Local Calls + Texts","500MB Roaming Data + 30 Roaming Minutes (USA, Canada & UK)","Select","Delete"],
+    "Unlimited_Text":["Unlimited Plan","50% off","Now $2,450.00 + GCT*","Unlimited Youtube","Unlimited Social media","Unlimited Anywhere Local Calls + Texts","1GB Roaming Data + 60 Roaming Minutes (USA, Canada & UK)","Select","Delete"]
+},
+    "Price":{
+        "DO_IT":"$1,999.50 / month",
+        "DO_IT_NOW":"$2,499.50 / month",
+        "DO_IT_MORE":"$6,499.00 / month",
+        "DO_IT_ALL":"$4,999.50 / month",
+        "Eight_GB":"$1,600.00 / month",
+        "Unlimited":"$2,450.00 / month"   
+    },
+    "sum_price":{
+        "DO_IT":["Your MONTHLY Payment Summary","$1,999.50","$1,600.00","Total monthly payment*","$3,599.50","*GTC not included."],
+        "DO_IT_NOW":["Your MONTHLY Payment Summary","$2,499.50","$1,600.00","Total monthly payment*","$4,099.50","*GTC not included."],
+        "DO_IT_MORE":["Your MONTHLY Payment Summary","$6,499.00","$1,600.00","Total monthly payment*","$8,099.00","*GTC not included."],
+        "DO_IT_ALL":["Your MONTHLY Payment Summary","$4,999.50","$1,600.00","Total monthly payment*","$6,599.50","*GTC not included."],
+        "TODAY_PAY":["Your TODAY Payment Summary ","This is a one-time payment","$100.00","$100.00","Total today payment*","$200.00"],
+      
+        "Eight_GB":"$1,600.00",
+        "Unlimited":"$2,450.00"   
+    },
+    "unlimited_sum_price":{
+        "DO_IT":["Your MONTHLY Payment Summary","$1,999.50","$2,450.00","Total monthly payment*","$4,449.50","*GTC not included."],
+        "DO_IT_NOW":["Your MONTHLY Payment Summary","$2,499.50","$2,450.00","Total monthly payment*","$4,949.50","*GTC not included."],
+        "DO_IT_MORE":["Your MONTHLY Payment Summary","$6,499.00","$2,450.00","Total monthly payment*","$8,949.00","*GTC not included."],
+        "DO_IT_ALL":["Your MONTHLY Payment Summary","$4,999.50","$2,450.00","Total monthly payment*","$7,449.50","*GTC not included."],
+        "TODAY_PAY":["Your TODAY Payment Summary ","This is a one-time payment","$100.00","$100.00","Total today payment*","$200.00"],
+       
+        "Eight_GB":"$1,600.00",
+        "Unlimited":"$2,450.00"   
+    },
+   "checkout": {
+    "Do_It_Text":["DO IT","Up to ","15Mbps","Unlimited Local Calls","Monthly","$1,999.50","+GTC. On your bill"],
+    "Do_Now_Text":["DO IT NOW","Up to 50Mbps","Unlimited Local Calls","HBO GO Streaming App","Flow Sports App","Monthly","$2,499.50","+GTC. On your bill"],
+    "Do_More_Text":["DO IT MORE","Up to 100Mbps","Unlimited Local Calls","161 Channels","See Channels","Flow Sports App","Monthly","$6,499.00","+GTC. On your bill"],
+    "Do_All_Text":["DO IT ALL","Up to 150Mbps","Unlimited Local Calls","242 Channels ","See Channels","HBO GO Streaming App","Flow Sports App","Monthly","$4,999.50","+GTC. On your bill"],
+
+    "Eight_GB_Text":["8GB Plan","8GB","Unlimited Youtube","Unlimited Social media","Unlimited Anywhere Local Calls + Texts","500MB Roaming Data + 30 Roaming Minutes (USA, Canada & UK)","Monthly","$1,600.00","+GTC. On your bill"],
+    "Unlimited_Text":["Unlimited Plan","Unlimited Youtube","Unlimited Social media","Unlimited Anywhere Local Calls + Texts","1GB Roaming Data + 60 Roaming Minutes (USA, Canada & UK)","Monthly","$2,450.00","+GTC. On your bill"]
+
+
+    }
+
+} 

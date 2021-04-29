@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-28T07:20:19.679Z",
+    "end": "2021-04-28T07:22:10.592Z",
+    "duration": 110913,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "898223c5-53cf-4785-8e73-e030c6f5da2b",
+      "title": "",
+      "fullFile": "cypress/integration/examples/TestCases/Jamaica_Markets/TC002_Do_It_Now.js",
+      "file": "cypress/integration/examples/TestCases/Jamaica_Markets/TC002_Do_It_Now.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "635b768f-1c4b-4567-9ed3-16d3867f8166",
+          "title": "Jamaica_Do_It_Now",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Buy_Do_It_Now",
+              "fullTitle": "Jamaica_Do_It_Now Buy_Do_It_Now",
+              "timedOut": null,
+              "duration": 106121,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1366, 600);\nconst common = new _baseclass.default();\nconst verify = new _validation_Method.default();\ncy.visit(this.data.s1.Jmaica); // Vallidation on URL/Header/Tittle\ncommon.validationL_T_H(); // DO IT PLAN VALIDATION & Select\nfor (var i = 0; i < this.user.plan.Do_Now_Text.length; i++) {\n  verify.doitNowPlanValidation(this.user.plan.Do_Now_Text[i]);\n}\ncommon.postpaidPlanSelection(this.user.plan.DO_IT_NOW); // SELECTED PLAN VALIDATION\nverify.selectedPlanValidation(this.user.plan.Do_Now_Text[0], this.user.Price.DO_IT_NOW); // EIGHT GB PLAN VALIDATION & Select\nfor (var i = 0; i < this.user.plan.Eight_GB_Text.length; i++) {\n  verify.eightGB_PlanValidation(this.user.plan.Eight_GB_Text[i]);\n}\ncommon.mobilePlanSelection(this.user.plan.eight_GB); // SELECTED PLAN VALIDATION\nverify.selectedPlanValidation(this.user.plan.Do_Now_Text[0], this.user.Price.DO_IT_NOW);\ncommon.addToCart(); // VALIDATION ON SELECTED PLAN AND CHECK-OUT\nfor (var i = 0; i < this.user.checkout.Do_Now_Text.length; i++) {\n  verify.check_outPagePlanFirst(this.user.checkout.Do_Now_Text[i]);\n}\nfor (var i = 0; i < this.user.checkout.Eight_GB_Text.length; i++) {\n  verify.check_outPagePlanSecond(this.user.checkout.Eight_GB_Text[i]);\n}\ncommon.checkOutPage(); // VALIDATE BUTTON TEXT AND ENTER MAIL        \ncommon.guestCheckOut(this.data.userData.username); // VALIDATION ON PLAN PRICE AND ENTER A DATA\nfor (var i = 0; i < this.user.sum_price.DO_IT_NOW.length; i++) {\n  verify.monthlyPlanVlaidation(this.user.sum_price.DO_IT_NOW[i]);\n}\nfor (var i = 0; i < this.user.sum_price.TODAY_PAY.length; i++) {\n  verify.toDayPlanVlaidation(this.user.sum_price.TODAY_PAY[i]);\n}\ncommon.addressDetails(); // VALIDATION ON PLAN PRICE AND ENTER KARD DETAILS\nfor (var i = 0; i < this.user.sum_price.DO_IT_NOW.length; i++) {\n  verify.cared_Deatails_MonthlyPlanVlaidation(this.user.sum_price.DO_IT_NOW[i]);\n}\nfor (var i = 0; i < this.user.sum_price.TODAY_PAY.length; i++) {\n  verify.cared_Deatails_ToDayPlanVlaidation(this.user.sum_price.TODAY_PAY[i]);\n}\ncommon.cardDetails(); // VALIDATION ON PLACEORDER    \nfor (var i = 0; i < this.user.sum_price.DO_IT_NOW.length; i++) {\n  verify.place_Order_MonthlyPlanVlaidation(this.user.sum_price.DO_IT_NOW[i]);\n}\nfor (var i = 0; i < this.user.sum_price.TODAY_PAY.length; i++) {\n  verify.place_Order_ToDayPlanVlaidation(this.user.sum_price.TODAY_PAY[i]);\n}\ncommon.placeOrder();\nfor (var i = 0; i < this.user.sum_price.DO_IT_NOW.length; i++) {\n  verify.place_Order_MonthlyPlanVlaidation(this.user.sum_price.DO_IT_NOW[i]);\n}\nfor (var i = 0; i < this.user.sum_price.TODAY_PAY.length; i++) {\n  verify.place_Order_ToDayPlanVlaidation(this.user.sum_price.TODAY_PAY[i]);\n}",
+              "err": {},
+              "uuid": "37c928d4-ebd0-4117-9765-d476a096b050",
+              "parentUUID": "635b768f-1c4b-4567-9ed3-16d3867f8166",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "37c928d4-ebd0-4117-9765-d476a096b050"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 106121,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

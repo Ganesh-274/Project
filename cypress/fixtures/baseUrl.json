@@ -1,0 +1,17 @@
+{
+    "s1":{
+    "cabletica":"https://www.cabletica.com/",
+    "Panama" : "https://panama.cdoj51jxo6-lilacserv1-s1-public.model-t.cc.commerce.ondemand.com",
+    "Jmaica" : "https://jamaica.cdoj51jxo6-lilacserv1-s1-public.model-t.cc.commerce.ondemand.com/jamaicastorefront/jamaica/en/configureProduct/selectDoItBundle",
+    "LCPR"   : "https://puertorico.cdoj51jxo6-lilacserv1-s1-public.model-t.cc.commerce.ondemand.com"
+    },
+    "d1":{
+    "Panama" : "https://panama.cdoj51jxo6-lilacserv1-d1-public.model-t.cc.commerce.ondemand.com/panamastorefront/",
+    "Jmaica" : "https://jamaica.cdoj51jxo6-lilacserv1-d1-public.model-t.cc.commerce.ondemand.com/jamaicastorefront/jamaica/en/configureProduct/selectDoItBundle",
+    "LCPR"   : "https://puertorico.cdoj51jxo6-lilacserv1-d1-public.model-t.cc.commerce.ondemand.com/puertoricostorefront/puertorico/en/configureProduct/selectInternetPlan"   
+    },
+    "userData":{
+        "username": "chewale.vishnupant@in.ey.com"
+
+    }
+}

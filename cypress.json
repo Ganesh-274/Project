@@ -1,0 +1,12 @@
+{
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/mocha",
+    "quite": true,
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "videos": false,
+  "projectId": "2z5mi9"
+}
